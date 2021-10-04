@@ -5,11 +5,11 @@ Esercizio 2  Calcola i numeri primi compresi tra due numeri interi inseriti dall
 
 Esercizio 3 Inserire una serie di numeri interi positivi da tastiera ed individuare il massimo e il minimo; la serie in ingresso deve essere terminata dal numero 0.
 
-Esercizio Scrivere un programma che inseriti i lati di un ipotetico triangolo, dica se tale triangolo esiste.(un triangolo è fattibile se ogni lato è minore della somma degli altri due)
+Esercizio 4 Scrivere un programma che inseriti i lati di un ipotetico triangolo, dica se tale triangolo esiste.(un triangolo è fattibile se ogni lato è minore della somma degli altri due)
 
-Esercizio Scrivere un programma che dato un numero, restituisca il suo fattoriale.
+Esercizio  5 Scrivere un programma che dato un numero, restituisca il suo fattoriale.
 
-Esercizio La serie di Fibonacci è una successione di interi in cui i primi 2 elementi sono 1 e tutti i successivi sono uguali alla somma dei due termini precedenti.
+Esercizio 6 La serie di Fibonacci è una successione di interi in cui i primi 2 elementi sono 1 e tutti i successivi sono uguali alla somma dei due termini precedenti.
 
 Sequenza di Fibonacci : 1,1,2,3,5,6,13,21,34,55,89,144,233,...
 
@@ -20,13 +20,13 @@ Input n = 2 then risultato = 1
 Input n = Intero >= 3 then risultato = Funzione fibonacci Fn-1 + Fn-2
 Implementare un progetto che, tramite ricorsività e un numero in input definito dall'utente da console (utilizzare lo Scanner), stampi la relativa serie di Fibonacci.
 
-Esercizio Scrivere il programma del fattoriale con un metodo ricorsivo.
+Esercizio 5.2 Scrivere il programma del fattoriale con un metodo ricorsivo.
 
-Esercizio Realizza un programma che sia in grado di valutare il volume di oggetti tridimensionali come cilindri e parallelepipedi basandosi sul valore della loro area e dell'altezza. Delegare i metodi comuni, come il calcolo e la stampa del volume ad una classe astratta.
+Esercizio 7 Realizza un programma che sia in grado di valutare il volume di oggetti tridimensionali come cilindri e parallelepipedi basandosi sul valore della loro area e dell'altezza. Delegare i metodi comuni, come il calcolo e la stampa del volume ad una classe astratta.
 
-Esercizio Scrivi un programma che simuli il lancio di un dado e di una moneta stampandone il risultato; con e senza l'utilizzo di una classe astratta che rappresenti i comportamenti comuni degli oggetti dado e moneta istanziati.
+Esercizio 8 Scrivi un programma che simuli il lancio di un dado e di una moneta stampandone il risultato; con e senza l'utilizzo di una classe astratta che rappresenti i comportamenti comuni degli oggetti dado e moneta istanziati.
 
-Esercizio Scrivi un programma che sia in grado di istanziare degli oggetti 'distributori di benzina' di cui sia nota la città, il proprietario, la capacità e la benzina attualmente contenuta nel distributore. Dell'oggetto Distributore, deve essere possibile simulare le operazioni di erogazione del carburante e dei corrispondenti incassi. Implementa una interfaccia Comparable, in modo da consentire il confronto tra 2 distributori in base alla capacità del serbatoio di carburante.
+Esercizio 9 Scrivi un programma che sia in grado di istanziare degli oggetti 'distributori di benzina' di cui sia nota la città, il proprietario, la capacità e la benzina attualmente contenuta nel distributore. Dell'oggetto Distributore, deve essere possibile simulare le operazioni di erogazione del carburante e dei corrispondenti incassi. Implementa una interfaccia Comparable, in modo da consentire il confronto tra 2 distributori in base alla capacità del serbatoio di carburante.
 
 Esercizio Definisci una interfaccia 'operazione' e le sue classi derivate( sub. div, mul) in modo che da ciascuna sia possibile eseguire la corrispondente operazione aritmetica (di addizione, divisione, moltiplicazione) istanziando un oggetto di classe 'operazione' e due operandi. Realizzare anche, una classe astratta che implementi le funzionalità comuni come la stampa a video del risultato.
 
