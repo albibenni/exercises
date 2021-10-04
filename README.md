@@ -3,7 +3,7 @@ Esercizio 1  Scrivere un programma che richiesto un numero intero visualizzi tut
 
 Esercizio 2  Calcola i numeri primi compresi tra due numeri interi inseriti dall'utente.
 
-Esercizio Inserire una serie di numeri interi positivi da tastiera ed individuare il massimo e il minimo; la serie in ingresso deve essere terminata dal numero 0.
+Esercizio 3 Inserire una serie di numeri interi positivi da tastiera ed individuare il massimo e il minimo; la serie in ingresso deve essere terminata dal numero 0.
 
 Esercizio Scrivere un programma che inseriti i lati di un ipotetico triangolo, dica se tale triangolo esiste.(un triangolo è fattibile se ogni lato è minore della somma degli altri due)
 
