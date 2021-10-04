@@ -1,7 +1,7 @@
 # exercises
-Esercizio Scrivere un programma che richiesto un numero intero visualizzi tutti i suoi divisori, contandoli.
+Esercizio 1  Scrivere un programma che richiesto un numero intero visualizzi tutti i suoi divisori, contandoli.
 
-Esercizio Calcola i numeri primi compresi tra due numeri interi inseriti dall'utente.
+Esercizio 2  Calcola i numeri primi compresi tra due numeri interi inseriti dall'utente.
 
 Esercizio Inserire una serie di numeri interi positivi da tastiera ed individuare il massimo e il minimo; la serie in ingresso deve essere terminata dal numero 0.
 
