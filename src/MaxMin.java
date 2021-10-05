@@ -1,5 +1,6 @@
 
-//Inserire una serie di numeri interi positivi da tastiera ed individuare il massimo e il minimo; la serie in ingresso deve essere terminata dal numero 0.
+//Inserire una serie di numeri interi positivi da tastiera ed individuare il massimo e il minimo;
+// la serie in ingresso deve essere terminata dal numero 0.
 
 import java.util.ArrayList;
 import java.util.LinkedList;

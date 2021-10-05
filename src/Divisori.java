@@ -1,8 +1,13 @@
 import java.util.ArrayList;
+import java.util.List;
 
 //Scrivere un programma che richiesto un numero intero visualizzi tutti i suoi divisori, contandoli.
 
 public class Divisori {
+
+    public Divisori() {
+
+    }
 
 	public void setNumber(int number) {
 		this.number = number;
@@ -14,16 +19,16 @@ public class Divisori {
 	public Divisori(int number) {
 		this.number = number;
 	}
-	public Divisori(){}
 
-	protected ArrayList<Integer> getDivisori() {
+	protected List<Integer> getDivisori() {
 		int numberCount = number-1;
-		ArrayList<Integer> list = new ArrayList<>();
+		List<Integer> list = new ArrayList<>();
 		if (number>0) {
 			list.add(number);
 			while (numberCount > 0) {
-				if (number % numberCount == 0)
+				if (number % numberCount == 0) {
 					list.add(numberCount);
+				}
 				numberCount--;
 			}
 		}else System.err.println("system out of scale");
@@ -35,7 +40,7 @@ public class Divisori {
 
 		int number = 5;
 		Divisori divisori = new Divisori(number);
-		ArrayList<Integer> list = divisori.getDivisori();
+		List<Integer> list = divisori.getDivisori();
 
 		for (Integer integer : list) {
 			System.out.println(integer);

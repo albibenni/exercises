@@ -9,6 +9,9 @@ public class AerodromoMain {
         Aereo aereo2 = new Aereo("abab", 11000);
         Aliante aliante2 = new Aliante("cabb", 1);
 
+//        Aereo aereo20 = (sigla, cavalli) -> {
+//            System.out.println("Sigla: "+ sigla + " Cavalli: " +cavalli);
+//        }
 
 
         System.out.println(aereo.getSigla() + "  " + aereo.getCV());

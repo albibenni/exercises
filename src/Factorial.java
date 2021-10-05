@@ -3,15 +3,15 @@ public class Factorial {
     public Factorial(){
     }
 
-    public int countFactorial(int n){
-        if (n<=1)
+    public static int countFactorial(int numberToFactor){
+        if (numberToFactor<=1)
             return 1;
         else
-            return n * countFactorial(n-1);
+            return numberToFactor * countFactorial(numberToFactor-1);
     }
 
 
     public static void main(String[] args){
-        System.out.println(new Factorial().countFactorial(3));
+        System.out.println(Factorial.countFactorial(3));
     }
 }

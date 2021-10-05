@@ -1,5 +1,5 @@
 package Aerodromo;
 
-public interface CMP {
-    public abstract boolean superior(Aeromobile a);
+interface CMP {
+    boolean superior(Aeromobile a);
 }

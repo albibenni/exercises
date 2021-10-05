@@ -5,7 +5,7 @@ import java.util.Comparator;
 public class Aereo extends Aeromobile implements Comparable<Aereo>  {
     public Aereo(String sigla, int CV){
         super();
-        setSigla(sigla);
+        super.setSigla(sigla);
         this.CV = CV;
     }
 
@@ -14,6 +14,10 @@ public class Aereo extends Aeromobile implements Comparable<Aereo>  {
     }
 
     public void setCV(int CV) {
+        this.CV = CV;
+    }
+    public void setDetails(String sigla, int CV) {
+        super.setSigla(sigla);
         this.CV = CV;
     }
 

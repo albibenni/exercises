@@ -30,7 +30,9 @@ public class Primi extends Divisori{
             numberCount = numberOne;
             numberRange = numberTwo;
             isItPrime(numberCount, numberRange);
-        } else System.err.println("Can't calculate primes between two equal numbers");
+        } else {
+            System.err.println("Can't calculate primes between two equal numbers");
+        }
 //       iteration until count = range
 
     }
@@ -40,8 +42,9 @@ public class Primi extends Divisori{
         } else {
             while (numberCount > numberRange) {
                 setNumber(numberCount);
-                if (getDivisori().size() == 2 || getDivisori().size() == 1)
+                if (getDivisori().size() == 2 || getDivisori().size() == 1) {
                     arrayList.add(numberCount);
+                }
                 --numberCount;
             }
         }
@@ -59,5 +62,13 @@ public class Primi extends Divisori{
         for (Integer n : arrayList) {
             System.out.println(n);
         }
+//
+//        arrayList.stream().forEach(el->{
+//            System.out.println(el);
+//        });
+//
+//        arrayList.parallelStream().forEach(integer -> {
+//            System.out.println(i);
+//        });
     }
 }
