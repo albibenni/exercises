@@ -53,15 +53,30 @@ public class Primi extends Divisori{
     public static void main(String[] args) {
         // TODO Auto-generated method stub
 
-        int number = 0;
-        int range = 4;
+        int number = 10;
+        int range = 1;
         Primi primi = new Primi(number, range);
         primi.getPrimeNumbers();
         ArrayList<Integer> arrayList = primi.getArrayList();
         System.out.println("Tra " + number + " e " + range + " vi sono: ");
-        for (Integer n : arrayList) {
-            System.out.println(n);
-        }
+//        for (Integer n : arrayList) {
+//            System.out.println(n);
+//        }
+        arrayList.parallelStream().forEach(el ->{
+            System.out.println(el);
+        });
+
+        //guardare reference methods
+//        arrayList.parallelStream().forEach(System.out::println);
+
+        int sum = arrayList.stream()
+                .mapToInt(Integer::intValue)
+//                .mapToInt(el -> el)
+//                .filter(el -> el%2==0)
+                .sum();
+
+        System.out.println("somma dei primi:  " + sum);
+
 //
 //        arrayList.stream().forEach(el->{
 //            System.out.println(el);
